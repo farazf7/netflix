@@ -1,0 +1,77 @@
+
+
+.card{
+    width: 250px;
+    height: 430px;
+    text-align: center;
+    border-radius: 15px;
+}
+.card
+img{
+    width: 250px;
+    height: 310px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.card p{
+    position: absolute;
+    width: 250px;
+    height: 310px;
+    text-align: center;
+    color: white;
+    opacity: 0;
+    /* border: 2px solid black; */
+    cursor: pointer;
+    transition: all 0.4s;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    
+}
+.card p:hover{
+    background-color: rgba(255, 0, 0, 0.505);
+    opacity: 1;
+    height: 310px;
+
+}
+
+@media (max-width:392px) {
+    .card{
+        width: 127px;
+        height: 350px;
+        text-align: center;
+        border-radius: 15px;
+    }
+    .card
+    img{
+    width: 127px;
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.card p{
+    position: absolute;
+    width: 127px;
+    height: 200px;
+    text-align: center;
+    color: white;
+    opacity: 0;
+    /* border: 2px solid black; */
+    cursor: pointer;
+    transition: all 0.4s;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    font-size: 10px;
+}
+.card p:hover{
+    background-color: rgba(255, 0, 0, 0.505);
+    opacity: 1;
+    height: 200px;
+
+}
+}
